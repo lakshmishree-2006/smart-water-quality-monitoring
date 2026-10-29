@@ -160,7 +160,51 @@ export function subscribeToConnectionStatus(
 
   return () => unsubscribe();
 }
+// Water source types for the Water Sources page
+export type WaterSourceId =
+  | 'primary'
+  | 'borewell'
+  | 'tank'
+  | 'tap'
+  | 'river';
 
+export interface WaterSourceData {
+  name: string;
+  type: 'household' | 'borewell' | 'tank' | 'tap' | 'river';
+  ph: number | null;
+  turbidity: number | null;
+  tds: number | null;
+  temperature: number | null;
+}
+
+// Listen to a specific water source in Firebase
+export function subscribeToWaterSource(
+  sourceId: WaterSourceId,
+  onUpdate: (data: Partial<WaterSourceData>) => void,
+  onError?: (error: Error) => void
+): () => void {
+  const sourceRef = ref(rtdb, `waterSources/${sourceId}`);
+
+  const unsubscribe = onValue(
+    sourceRef,
+    (snapshot: DataSnapshot) => {
+      const data = snapshot.val();
+
+      if (data && typeof data === 'object') {
+        onUpdate(data as Partial<WaterSourceData>);
+      }
+    },
+    (error) => {
+      console.error(
+        `[Firebase RTDB] Error reading water source ${sourceId}:`,
+        error
+      );
+      onError?.(error);
+    }
+  );
+
+  return () => unsubscribe();
+}
 export async function pushTurbidityToFirebase(
   value: number
 ): Promise<void> {

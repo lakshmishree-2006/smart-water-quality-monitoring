@@ -32,7 +32,7 @@ export const Header: React.FC<HeaderProps> = ({
   const isContaminated = overallStatus === 'CONTAMINATED';
 
   return (
-    <header id="app-header" className="sticky top-0 z-40 bg-slate-950/95 backdrop-blur-md border-b border-slate-800">
+    <header id="app-header" className="sticky top-0 z-40 bg-slate-900/95 backdrop-blur-md border-b border-slate-700 shadow-lg shadow-black/20">
       {/* Contamination Alert Banner (if contaminated) */}
       {isContaminated && (
         <div
@@ -78,13 +78,13 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-center gap-2">
               <h1 className="text-base sm:text-lg font-extrabold tracking-tight text-white">
-                IoT Smart Water Quality Monitoring
+                Smart Water Quality Monitoring System
               </h1>
               <span className="hidden sm:inline-block text-[11px] font-mono font-bold px-2 py-0.5 rounded bg-cyan-950/60 text-cyan-300 border border-cyan-800/60">
                 ESP32 Node 01
               </span>
             </div>
-            <p className="text-xs text-slate-400">
+            <p className="text-xs text-slate-300">
               Contamination Alert Network • College Mini Project Demonstration
             </p>
           </div>
@@ -140,9 +140,9 @@ export const Header: React.FC<HeaderProps> = ({
               <div className="text-[10px] uppercase font-bold text-slate-400">Water Quality Index</div>
               <div className={`text-xs font-bold ${wqi.color}`}>{wqi.rating}</div>
             </div>
-            <div className="w-9 h-9 rounded-full bg-slate-950 border border-slate-700 flex items-center justify-center font-mono font-black text-xs text-white">
-              {wqi.score}
-            </div>
+            <div className="w-10 h-10 rounded-full bg-cyan-500/15 border-2 border-cyan-400/60 flex items-center justify-center font-mono font-black text-sm text-cyan-300 shadow-[0_0_12px_rgba(34,211,238,0.15)]">
+  {wqi.score}
+</div>
           </div>
 
           {/* Overall Status Badge: SAFE vs CONTAMINATED */}

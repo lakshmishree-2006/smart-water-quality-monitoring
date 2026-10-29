@@ -77,7 +77,7 @@ export const RealTimeChart: React.FC<RealTimeChartProps> = ({ history }) => {
   const colors = getSensorColor(selectedSensor);
 
   return (
-    <div id="real-time-monitoring-graph" className="rounded-xl bg-slate-900/90 border border-slate-800 p-5 shadow-lg">
+    <div id="real-time-monitoring-graph" className="rounded-xl bg-slate-900 border border-slate-700 p-5 shadow-lg shadow-black/20">
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4">
         <div className="flex items-center gap-2.5">
           <div className="p-2 rounded-lg bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
@@ -85,22 +85,28 @@ export const RealTimeChart: React.FC<RealTimeChartProps> = ({ history }) => {
           </div>
           <div>
             <h3 className="font-bold text-sm text-slate-100">Real-Time Telemetry Stream</h3>
-            <p className="text-xs text-slate-400">Live oscillating trend &amp; dynamic threshold bounds</p>
+            <p className="text-xs text-slate-300">Live oscillating trend &amp; dynamic threshold bounds</p>
           </div>
         </div>
 
         {/* Sensor selector tabs */}
-        <div className="flex items-center gap-1.5 p-1 bg-slate-950 rounded-lg border border-slate-800 self-start sm:self-auto overflow-x-auto max-w-full">
+        <div className="flex flex-wrap items-center gap-1.5 p-1 bg-slate-950 rounded-lg border border-slate-800 self-start sm:self-auto max-w-full">
           {(['turbidity', 'ph', 'tds', 'temperature'] as SensorType[]).map(type => (
             <button
               key={type}
               id={`chart-tab-${type}`}
               onClick={() => setSelectedSensor(type)}
-              className={`px-2.5 py-1 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap ${
-                selectedSensor === type
-                  ? 'bg-slate-800 text-white shadow-sm border border-slate-700'
-                  : 'text-slate-400 hover:text-slate-200'
-              }`}
+             className={`px-2.5 py-1 text-xs font-semibold rounded-md transition-all cursor-pointer whitespace-nowrap ${
+  selectedSensor === type
+    ? type === 'turbidity'
+      ? 'bg-blue-500/20 text-blue-300 shadow-sm border border-blue-500/50'
+      : type === 'ph'
+        ? 'bg-cyan-500/20 text-cyan-300 shadow-sm border border-cyan-500/50'
+        : type === 'tds'
+          ? 'bg-indigo-500/20 text-indigo-300 shadow-sm border border-indigo-500/50'
+          : 'bg-amber-500/20 text-amber-300 shadow-sm border border-amber-500/50'
+    : 'text-slate-400 hover:text-white'
+}`}
             >
               {SENSOR_CONFIGS[type].name.split(' ')[0]} ({SENSOR_CONFIGS[type].unit})
             </button>
@@ -139,7 +145,7 @@ export const RealTimeChart: React.FC<RealTimeChartProps> = ({ history }) => {
                 <text
                   x={padding.left - 8}
                   y={y + 4}
-                  fill="#64748b"
+                  fill="#94a3b8"
                   fontSize="10"
                   fontFamily="monospace"
                   textAnchor="end"
@@ -176,7 +182,7 @@ export const RealTimeChart: React.FC<RealTimeChartProps> = ({ history }) => {
           <text
             x={svgWidth - padding.right}
             y={safeMaxY - 4}
-            fill="#10b981"
+            fill="#34d399"
             fontSize="9"
             fontFamily="monospace"
             textAnchor="end"

@@ -83,7 +83,7 @@ export const ControllerView: React.FC<ControllerViewProps> = ({
             ? 'bg-rose-950/25 border-rose-700/80 shadow-[0_0_20px_rgba(244,63,94,0.15)]'
             : status === 'WARNING'
             ? 'bg-amber-950/25 border-amber-700/80'
-            : 'bg-slate-900/90 border-slate-800'
+            : 'bg-slate-800/90 border-slate-700 shadow-lg shadow-black/20 hover:border-cyan-500/40'
         }`}
       >
         {/* Header */}
@@ -111,7 +111,7 @@ export const ControllerView: React.FC<ControllerViewProps> = ({
             -
           </button>
 
-          <div className="flex-1 text-center bg-slate-950 px-4 py-1.5 rounded-lg border border-slate-800">
+          <div className="flex-1 text-center bg-slate-950 px-4 py-2 rounded-lg border border-slate-700 shadow-inner">
             <span className="font-mono text-xl font-extrabold text-white tracking-wide">
               {value.toFixed(config.decimals)}
             </span>
@@ -279,7 +279,7 @@ export const ControllerView: React.FC<ControllerViewProps> = ({
                 temperature: 28.0,
               })
             }
-            className="p-3 rounded-lg bg-slate-950 hover:bg-slate-850 border border-slate-800 text-left transition-colors cursor-pointer"
+            className="p-4 rounded-xl bg-slate-950 hover:bg-indigo-950/50 border border-slate-700 hover:border-indigo-500/60 text-left transition-all duration-200 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-indigo-950/30 cursor-pointer"
           >
             <div className="font-bold text-xs text-rose-400">Industrial Chemical Discharge</div>
             <p className="text-[11px] text-slate-400 mt-0.5">Severe acid breach + high turbidity &amp; mineral solids.</p>

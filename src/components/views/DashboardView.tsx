@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { SensorCard } from '../SensorCard';
 import { RealTimeChart } from '../RealTimeChart';
 import { RecentAlerts } from '../RecentAlerts';
@@ -34,11 +34,120 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
   onSimulatePreset,
 }) => {
   const isContaminated = overallStatus === 'CONTAMINATED';
+  const [bannerAlert, setBannerAlert] = useState<AlertItem | null>(null);
+
+const lastSeenAlertId = useRef(alerts[0]?.id);
+
+useEffect(() => {
+  const latestAlert = alerts[0];
+
+  if (!latestAlert || latestAlert.id === lastSeenAlertId.current) {
+    return;
+  }
+
+  lastSeenAlertId.current = latestAlert.id;
+
+  if (
+    latestAlert.status === 'CRITICAL' ||
+    latestAlert.status === 'WARNING'
+  ) {
+    setBannerAlert(latestAlert);
+  }
+}, [alerts]);
+  const [flashLevel, setFlashLevel] = useState<'CRITICAL' | 'WARNING' | null>(null);
+
+useEffect(() => {
+  const latestAlert = alerts[0];
+
+  if (!latestAlert || latestAlert.status === 'NORMAL') return;
+
+  setFlashLevel(latestAlert.status === 'CRITICAL' ? 'CRITICAL' : 'WARNING');
+
+  const timer = window.setTimeout(() => {
+    setFlashLevel(null);
+  }, 1800);
+
+  return () => window.clearTimeout(timer);
+}, [alerts]);
 
   return (
     <div id="dashboard-view" className="space-y-6 animate-in fade-in duration-300">
+      {bannerAlert && (
+  <div
+    role="alert"
+    className={`animate-in slide-in-from-top-3 fade-in duration-300 rounded-xl border p-4 shadow-lg ${
+      bannerAlert.status === 'CRITICAL'
+        ? 'border-rose-500/60 bg-rose-950/90'
+        : 'border-amber-500/60 bg-amber-950/90'
+    }`}
+  >
+    <div className="flex items-start gap-3">
+      <ShieldAlert
+        className={`mt-0.5 h-6 w-6 shrink-0 ${
+          bannerAlert.status === 'CRITICAL'
+            ? 'text-rose-400'
+            : 'text-amber-400'
+        }`}
+      />
+
+      <div className="min-w-0 flex-1">
+        <h3
+          className={`text-sm font-extrabold tracking-wide ${
+            bannerAlert.status === 'CRITICAL'
+              ? 'text-rose-300'
+              : 'text-amber-300'
+          }`}
+        >
+          {bannerAlert.status === 'CRITICAL'
+            ? 'CRITICAL WATER QUALITY ALERT'
+            : 'WATER QUALITY WARNING'}
+        </h3>
+
+        <p className="mt-1 text-sm font-semibold text-white">
+          {bannerAlert.sensorName} threshold exceeded
+        </p>
+
+        <p className="mt-1 text-xs text-slate-300">
+          Detected: {bannerAlert.detectedValue} {bannerAlert.unit}
+          {' · '}Safe threshold: {bannerAlert.safeThreshold}
+        </p>
+
+        <button
+          onClick={() => {
+            onSelectAlert(bannerAlert);
+            setBannerAlert(null);
+          }}
+          className="mt-3 rounded-lg bg-white/10 px-3 py-2 text-xs font-bold text-white transition hover:bg-white/20"
+        >
+          VIEW ALERT DETAILS →
+        </button>
+      </div>
+
+      <button
+        onClick={() => setBannerAlert(null)}
+        aria-label="Dismiss alert banner"
+        className="rounded-md p-1 text-slate-300 hover:bg-white/10 hover:text-white"
+      >
+        ✕
+      </button>
+    </div>
+  </div>
+)}
+      {flashLevel && (
+  <div
+    key={flashLevel}
+    className={`pointer-events-none fixed inset-0 z-[9999] ${
+      flashLevel === 'CRITICAL'
+        ? 'animate-flash-red'
+        : 'animate-flash-amber'
+    }`}
+    aria-hidden="true"
+  />
+)}
       {/* Top Banner & Fast Preset Action Bar */}
-      <div className="rounded-2xl bg-gradient-to-r from-slate-900 via-slate-850 to-slate-900 border border-slate-800 p-5 shadow-xl">
+      
+<div className="rounded-2xl border border-sky-100 bg-gradient-to-r from-slate-800 via-slate-800 to-slate-900 border border-slate-700 p-5 shadow-sm">
+
         <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-5">
           <div>
             <div className="flex items-center gap-2 mb-1">
@@ -51,13 +160,13 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
             <h2 className="text-xl sm:text-2xl font-black text-white tracking-tight">
               Real-Time Water Monitoring Overview
             </h2>
-            <p className="text-xs sm:text-sm text-slate-300 max-w-2xl mt-1">
+            <p className="text-sm text-slate-300 max-w-2xl mt-2 leading-6">
               Continuous multi-parametric analysis of physical and chemical water characteristics with autonomous threshold violation detection.
             </p>
           </div>
 
           {/* Quick Simulation Presets */}
-          <div className="flex flex-wrap items-center gap-2 self-start lg:self-auto bg-slate-950/70 p-2 rounded-xl border border-slate-800">
+          <div className="flex flex-wrap items-center gap-2 self-start lg:self-auto bg-white p-2 rounded-xl border border-slate-200">
             <span className="text-xs text-slate-400 font-semibold px-1 flex items-center gap-1">
               <SlidersHorizontal className="w-3.5 h-3.5 text-cyan-400" />
               Quick Triggers:
@@ -102,7 +211,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       </div>
 
       {/* 4 Sensor Parameter Cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+      <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
         <SensorCard
           config={SENSOR_CONFIGS.ph}
           value={sensorValues.ph}
@@ -167,11 +276,11 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
           <div className="p-3.5 rounded-lg bg-slate-950/60 border border-slate-800/80">
-            <div className="text-xs font-semibold text-slate-400 mb-1">pH Acidity Baseline</div>
+            <div className="text-xs font-semibold text-slate-200 mb-1">pH Acidity Baseline</div>
             <div className="text-lg font-bold font-mono text-cyan-300">
               {sensorValues.ph.toFixed(2)} <span className="text-xs font-normal text-slate-400">pH</span>
             </div>
-            <div className="text-[11px] text-slate-400 mt-1">
+            <div className="text-[11px] text-slate-300 mt-1">
               Std. Potable Range: 6.5 – 8.5
             </div>
           </div>

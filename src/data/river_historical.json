@@ -1,0 +1,4411 @@
+{
+  "metadata": {
+    "source_file": "swq_physical_parameter_manual_cpcb_tn_2021_2025(2).csv",
+    "source_agency": "CPCB (as recorded in source file)",
+    "records_included": 100,
+    "source_date_range": "2021 only",
+    "important_note": "These are actual records sampled across the available 2021 data; they do not cover 2020–2026. Missing values are null. The source has no pH column and River/Basin fields are blank. Status RECORDED means a source value exists, not that water quality is safe."
+  },
+  "records": [
+    {
+      "station": "KAKKADAVU KERALA",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "POLLACHI",
+      "sampleDate": "04-01-2021 08:30",
+      "latitude": 10.742228,
+      "longitude": 77.060508,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "PULICATE LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "06-01-2021 08:30",
+      "latitude": 13.427023,
+      "longitude": 80.292679,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 29500,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER CAUVERY AT MAYILADUTHURAI D/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Nagapattinam",
+      "tehsil": "Mayiladuthurai",
+      "sampleDate": "07-01-2021 08:30",
+      "latitude": 11.105488,
+      "longitude": 79.647969,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT PITCHAVARAM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Cuddalore",
+      "tehsil": "CHIDAMBARAM",
+      "sampleDate": "07-01-2021 08:30",
+      "latitude": 11.418828,
+      "longitude": 79.772375,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT ERAL THOTHUKUDI TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Thoothukudi",
+      "tehsil": "Thoothukudi",
+      "sampleDate": "07-01-2021 08:30",
+      "latitude": 8.620606,
+      "longitude": 78.022839,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "LOCATED ADJACENT TO KARU MSW DUMP SITE AND ON THE NORTHERN BANK OF RIVER AMARAVATHI AND DOWNSTREAM",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Karur",
+      "tehsil": "KARUR",
+      "sampleDate": "07-01-2021 08:30",
+      "latitude": 10.951185,
+      "longitude": 78.035374,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT CHERANMADEVI CAUSE WAY TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "AMBASAMUDRAM",
+      "sampleDate": "09-01-2021 08:30",
+      "latitude": 8.700586,
+      "longitude": 77.56595,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "ERODE-2",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "ERODE",
+      "sampleDate": "09-01-2021 08:30",
+      "latitude": 11.338655,
+      "longitude": 77.74513,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT BDG.NR. MADURA COATS LTD.PAPAVINASAM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "AMBASAMUDRAM",
+      "sampleDate": "09-01-2021 08:30",
+      "latitude": 8.663294,
+      "longitude": 77.422222,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER VAIGAI AT MADURAI U/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Madurai",
+      "tehsil": "MADURAI SOUTH",
+      "sampleDate": "12-01-2021 08:30",
+      "latitude": 9.927433,
+      "longitude": 78.121013,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TIRCHIRAPPALLLI-SRIRANGAM",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruchirappalli",
+      "tehsil": "TIRUCHIRAPPALLI",
+      "sampleDate": "12-01-2021 08:30",
+      "latitude": 10.822062,
+      "longitude": 78.688706,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER CAUVERY AT PALLIPALAYAM D/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "Tiruchengode",
+      "sampleDate": "12-01-2021 08:30",
+      "latitude": 11.365347,
+      "longitude": 77.741652,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT VAIRAPALAYAM NAMAKAL TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "Tiruchengode",
+      "sampleDate": "12-01-2021 08:30",
+      "latitude": 11.361583,
+      "longitude": 77.742411,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "THANJAVUR",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Thanjavur",
+      "tehsil": "THANJAVUR",
+      "sampleDate": "12-01-2021 08:30",
+      "latitude": 10.786359,
+      "longitude": 79.157779,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "VASISTA AT SALEM D/S OF SAGO INDUSRIES EFFLUENT TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "sampleDate": "13-01-2021 08:30",
+      "latitude": 11.647853,
+      "longitude": 78.138125,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER COOUM NEAR CENTRAL JAIL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "20-01-2021 08:30",
+      "latitude": 13.169913,
+      "longitude": 80.21808,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT METTUR",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "METTUR",
+      "sampleDate": "20-01-2021 08:30",
+      "latitude": 11.796255,
+      "longitude": 77.806971,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER ADYAR AT KOTTURPURAM BRIDGE",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "20-01-2021 08:30",
+      "latitude": 13.025906,
+      "longitude": 80.243554,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER ADYAR AT MARAIMALAI BRIDGE",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Kancheepuram",
+      "tehsil": "KANCHEEPURAM",
+      "sampleDate": "20-01-2021 08:30",
+      "latitude": 13.02724,
+      "longitude": 80.208104,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CHENNAI WATERWAYS AT OTTERI NULLAH (KILPAUK GARDEN)",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "20-01-2021 08:30",
+      "latitude": 13.086538,
+      "longitude": 80.234507,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "BHAVANI AT D/S OF BHAVANISAGAR SATHYAMANGALAM ERODE TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "SATHYAMANGALAM",
+      "sampleDate": "21-01-2021 08:30",
+      "latitude": 11.503881,
+      "longitude": 77.247036,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER CAUVERY AT BHAWANI D/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "ERODE",
+      "sampleDate": "21-01-2021 08:30",
+      "latitude": 11.422026,
+      "longitude": 77.679686,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER COOUM AT ANNA NAGAR",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "21-01-2021 08:30",
+      "latitude": 13.07865,
+      "longitude": 80.207011,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT URRACHIKOTTAI ERODE TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "Tiruchengode",
+      "sampleDate": "21-01-2021 08:30",
+      "latitude": 11.354178,
+      "longitude": 77.750436,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "VEERANAM LAKE AT CUDDALORE TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Cuddalore",
+      "tehsil": "KATTUMANNARKOIL",
+      "sampleDate": "22-01-2021 08:30",
+      "latitude": 11.341111,
+      "longitude": 79.523058,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 420,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "WELL AT VADAMATTAM KARAIKAL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "28-01-2021 08:30",
+      "latitude": 10.963617,
+      "longitude": 79.678261,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1509,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "WELL AT KOTHAPURINATHAM THIRUVANDARKOIL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Viluppuram",
+      "tehsil": "Viluppuram",
+      "sampleDate": "02-02-2021 08:30",
+      "latitude": 11.930541,
+      "longitude": 79.661783,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1301,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "MAYILADUTHURAI",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "03-02-2021 08:30",
+      "latitude": 10.812621,
+      "longitude": 79.608435,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER COOUM NEAR CENTRAL JAIL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "04-02-2021 08:30",
+      "latitude": 13.169913,
+      "longitude": 80.21808,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER ADYAR AT JAFERKHANPET",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Kancheepuram",
+      "tehsil": "KANCHEEPURAM",
+      "sampleDate": "04-02-2021 08:30",
+      "latitude": 13.02849,
+      "longitude": 80.20247,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER COOUM AT ARUMBAKKAM",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "04-02-2021 08:30",
+      "latitude": 13.074866,
+      "longitude": 80.221849,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER COOUM AT POONAMALLE",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "04-02-2021 08:30",
+      "latitude": 13.065634,
+      "longitude": 80.113691,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER ADYAR AT EKKATTUTHANGAL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Kancheepuram",
+      "tehsil": "KANCHEEPURAM",
+      "sampleDate": "04-02-2021 08:30",
+      "latitude": 13.026747,
+      "longitude": 80.192542,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CHENNAI WATERWAYS AT CC X BC CONFLUENCE (KODUNGAIYUR)",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "05-02-2021 08:30",
+      "latitude": 13.136803,
+      "longitude": 80.249192,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CHENNAI WATERWAYS AT CAPTAIN COTTON CANAL (ERUKANJERI)",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "05-02-2021 08:30",
+      "latitude": 13.126266,
+      "longitude": 80.256935,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CHENNAI WATERWAYS AT OTTERI NULLAH (KILPAUK GARDEN)",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "05-02-2021 08:30",
+      "latitude": 13.086538,
+      "longitude": 80.234507,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT TIRUNELVELI COLLECTORATE TAMILNADU.",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "TIRUNELVELI",
+      "sampleDate": "09-02-2021 08:30",
+      "latitude": 8.734125,
+      "longitude": 77.716764,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT VELLAKOIL TIRUNELVELI TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "TIRUNELVELI",
+      "sampleDate": "09-02-2021 08:30",
+      "latitude": 8.718019,
+      "longitude": 77.703531,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER TAMRABARANI AT TIRUNELVELI D/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "TIRUNELVELI",
+      "sampleDate": "09-02-2021 08:30",
+      "latitude": 8.78198,
+      "longitude": 77.79011,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT TIRUCHIRAPPALLI U/S TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruchirappalli",
+      "tehsil": "TIRUCHIRAPPALLI",
+      "sampleDate": "09-02-2021 08:30",
+      "latitude": 10.833263,
+      "longitude": 78.718224,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT THANJAVUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Ariyalur",
+      "tehsil": "Sendurai",
+      "sampleDate": "09-02-2021 08:30",
+      "latitude": 11.34,
+      "longitude": 79.24,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "BHAVANI AT PATHIRAKALIAMMAN KOIL TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "10-02-2021 08:30",
+      "latitude": 11.469259,
+      "longitude": 77.296165,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER CAUVERY AT PALLIPALAYAM D/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "Tiruchengode",
+      "sampleDate": "10-02-2021 08:30",
+      "latitude": 11.365347,
+      "longitude": 77.741652,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER CAUVERY AT KUMARAPALAYAM U/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "Tiruchengode",
+      "sampleDate": "10-02-2021 08:30",
+      "latitude": 11.427111,
+      "longitude": 77.686922,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT ERAL THOTHUKUDI TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Thoothukudi",
+      "tehsil": "Thoothukudi",
+      "sampleDate": "10-02-2021 08:30",
+      "latitude": 8.620606,
+      "longitude": 78.022839,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "BHAVANI AT BHAVANI TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "BHAVANI",
+      "sampleDate": "18-02-2021 08:30",
+      "latitude": 11.454094,
+      "longitude": 77.679567,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "LOCATED ON THE SOUTHERN BANK OF RIVER AMARAVATHI AND DOWNSTREAM SIDE OF KARUR DYEING CLUSTER",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Karur",
+      "tehsil": "KARUR",
+      "sampleDate": "18-02-2021 08:30",
+      "latitude": 10.917543,
+      "longitude": 78.009517,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT ERODE NEAR CHIRAPALAYAM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "ERODE",
+      "sampleDate": "18-02-2021 08:30",
+      "latitude": 11.335795,
+      "longitude": 77.753762,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "LOCATED ADJACENT TO KARU MSW DUMP SITE AND ON THE NORTHERN BANK OF RIVER AMARAVATHI AND DOWNSTREAM",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Karur",
+      "tehsil": "KARUR",
+      "sampleDate": "18-02-2021 08:30",
+      "latitude": 10.951185,
+      "longitude": 78.035374,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "BHAVANI AT U/S OF KALINGARAYAN CANAL (B5) ERODE TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "ERODE",
+      "sampleDate": "18-02-2021 08:30",
+      "latitude": 11.442818,
+      "longitude": 77.676045,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "YERCAUD LAKE SALEM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "YERCAUD",
+      "sampleDate": "25-02-2021 08:30",
+      "latitude": 11.783642,
+      "longitude": 78.211153,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 352,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER ADYAR AT KOTTURPURAM BRIDGE",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "04-03-2021 08:30",
+      "latitude": 13.025906,
+      "longitude": 80.243554,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER COOUM AT COLLAGE ROAD",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "04-03-2021 08:30",
+      "latitude": 13.070824,
+      "longitude": 80.249921,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CHENNAI WATERWAYS AT MAMBALAM DRAIN (GOLF COURSE)",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "04-03-2021 08:30",
+      "latitude": 13.022221,
+      "longitude": 80.233657,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER ADYAR AT MARAIMALAI BRIDGE",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Kancheepuram",
+      "tehsil": "KANCHEEPURAM",
+      "sampleDate": "04-03-2021 08:30",
+      "latitude": 13.02724,
+      "longitude": 80.208104,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CHENNAI WATERWAYS AT BUCKINGHAM CANAL (ICE HOUSE)",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "tehsil": "CHENNAI",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 13.050823,
+      "longitude": 80.278958,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "OVER HEAD TANK AT TIRUR VILLAGE TIRUVALLUR TALUK TIRUVALLUR PANCHAYAT UN",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 13.106545,
+      "longitude": 79.960588,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 2032,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "POONDI LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 13.169731,
+      "longitude": 79.888236,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 638,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "KARUR",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Karur",
+      "tehsil": "KARUR",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 10.955411,
+      "longitude": 78.055554,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT SIVALAPERI CONFLUENCE POINT OF KUTTRALAM FALLS D/S OF PALAYAMKOTTAI TIRUNELVELI TA",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "PALAYAMKOTTAI",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 8.700031,
+      "longitude": 77.690869,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT CHERANMADEVI CAUSE WAY TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "AMBASAMUDRAM",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 8.700586,
+      "longitude": 77.56595,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "TAMBIRAPARANI AT VELLAKOIL TIRUNELVELI TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "TIRUNELVELI",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 8.718019,
+      "longitude": 77.703531,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "REDD HILLS AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "05-03-2021 08:30",
+      "latitude": 13.193092,
+      "longitude": 80.172867,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 455,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "KUMBAKONAM",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Thanjavur",
+      "tehsil": "THANJAVUR",
+      "sampleDate": "09-03-2021 08:30",
+      "latitude": 10.78627,
+      "longitude": 79.15819,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT TIRUCHIRAPPALLI U/S TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruchirappalli",
+      "tehsil": "TIRUCHIRAPPALLI",
+      "sampleDate": "09-03-2021 08:30",
+      "latitude": 10.833263,
+      "longitude": 78.718224,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT KUMBAKONAM THANJAVUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Thanjavur",
+      "tehsil": "KUMBAKONAM",
+      "sampleDate": "09-03-2021 08:30",
+      "latitude": 10.968137,
+      "longitude": 79.378248,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT KOMARAPALAYAM NAMAKAL TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "Tiruchengode",
+      "sampleDate": "10-03-2021 08:30",
+      "latitude": 11.423503,
+      "longitude": 77.685261,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER CAUVERY AT KUMARAPALAYAM U/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "Tiruchengode",
+      "sampleDate": "10-03-2021 08:30",
+      "latitude": 11.427111,
+      "longitude": 77.686922,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT ERODE NEAR CHIRAPALAYAM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "ERODE",
+      "sampleDate": "11-03-2021 08:30",
+      "latitude": 11.335795,
+      "longitude": 77.753762,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "BHAVANI AT BHAVANI SAGAR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "SATHYAMANGALAM",
+      "sampleDate": "11-03-2021 08:30",
+      "latitude": 11.485294,
+      "longitude": 77.134603,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "RIVER CAUVERY AT BHAWANI D/S",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Erode",
+      "tehsil": "ERODE",
+      "sampleDate": "11-03-2021 08:30",
+      "latitude": 11.422026,
+      "longitude": 77.679686,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "UDHAGAMADALEM LAKE (OOTY) TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Nilgiris",
+      "tehsil": "Pandalur",
+      "sampleDate": "16-03-2021 08:30",
+      "latitude": 11.400623,
+      "longitude": 76.690453,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 492,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "BHAVANI AT SIRUMUGAI TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Mettupalayam",
+      "sampleDate": "16-03-2021 08:30",
+      "latitude": 11.319948,
+      "longitude": 77.011429,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "CAUVERY AT MOHANUR NEAR PATTAIPALAYAM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Namakkal",
+      "tehsil": "NAMAKKAL",
+      "sampleDate": "22-03-2021 08:30",
+      "latitude": 11.064392,
+      "longitude": 78.120358,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "REDD HILLS AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "01-04-2021 08:30",
+      "latitude": 13.193092,
+      "longitude": 80.172867,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 494,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "OVER HEAD TANK AT TIRUR VILLAGE TIRUVALLUR TALUK TIRUVALLUR PANCHAYAT UN",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "01-04-2021 08:30",
+      "latitude": 13.106545,
+      "longitude": 79.960588,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1294,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "SAKTHI NAGAR NEAR MUNICIPALITY SEWAGE TREATMENT PLANT KOMPURANKADU METTUR",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Kancheepuram",
+      "tehsil": "SRIPERUMBUDUR",
+      "sampleDate": "16-04-2021 08:30",
+      "latitude": 13.00996,
+      "longitude": 80.162403,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1110,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": 4,
+          "unit": "NTU",
+          "status": "RECORDED"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "UDHAGAMADALEM LAKE (OOTY) TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Nilgiris",
+      "tehsil": "Pandalur",
+      "sampleDate": "19-04-2021 08:30",
+      "latitude": 11.400623,
+      "longitude": 76.690453,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 514,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "SRIVAIKUNDAM ? BLOCK DEVELOPMENT OFFICE ? OPEN WELL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Thoothukudi",
+      "tehsil": "Thoothukudi",
+      "sampleDate": "21-04-2021 08:30",
+      "latitude": 8.625282,
+      "longitude": 77.907778,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1594,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "PULICATE LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "04-05-2021 08:30",
+      "latitude": 13.427023,
+      "longitude": 80.292679,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 59200,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "YERCAUD LAKE SALEM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "YERCAUD",
+      "sampleDate": "11-06-2021 08:30",
+      "latitude": 11.783642,
+      "longitude": 78.211153,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 352,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "PORUR LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "18-06-2021 08:30",
+      "latitude": 13.033945,
+      "longitude": 80.148344,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1318,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "PORUR LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "01-07-2021 08:30",
+      "latitude": 13.033945,
+      "longitude": 80.148344,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1321,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "REDD HILLS AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "01-07-2021 08:30",
+      "latitude": 13.193092,
+      "longitude": 80.172867,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 660,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "WELL AT MUSIRI TAMIL NADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruchirappalli",
+      "tehsil": "MUSIRI",
+      "sampleDate": "26-07-2021 08:30",
+      "latitude": 10.954883,
+      "longitude": 78.443933,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 564,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "OVER HEAD TANK AT TIRUR VILLAGE TIRUVALLUR TALUK TIRUVALLUR PANCHAYAT UN",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "02-08-2021 08:30",
+      "latitude": 13.106545,
+      "longitude": 79.960588,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1248,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "YERCAUD LAKE SALEM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "YERCAUD",
+      "sampleDate": "17-08-2021 08:30",
+      "latitude": 11.783642,
+      "longitude": 78.211153,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 329,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "WELL AT KOTHAPURINATHAM THIRUVANDARKOIL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Viluppuram",
+      "tehsil": "Viluppuram",
+      "sampleDate": "06-09-2021 08:30",
+      "latitude": 11.930541,
+      "longitude": 79.661783,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1200,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "MADUKARAI",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Viluppuram",
+      "tehsil": "Viluppuram",
+      "sampleDate": "06-09-2021 08:30",
+      "latitude": 11.871427,
+      "longitude": 79.603728,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1759,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "THIRUKKANUR",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Viluppuram",
+      "tehsil": "Viluppuram",
+      "sampleDate": "13-09-2021 08:30",
+      "latitude": 11.991116,
+      "longitude": 79.639712,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1076,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "KODAI KANAL LAKE TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Dindigul",
+      "tehsil": "KODAIKANAL",
+      "sampleDate": "27-09-2021 08:30",
+      "latitude": 10.233619,
+      "longitude": 77.485653,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 132,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "PULICATE LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "01-10-2021 08:30",
+      "latitude": 13.427023,
+      "longitude": 80.292679,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 47100,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "PARAMASIVAM WATER SERVICE STATION BLOCK NO.13 BSNL EXCHANGE OPPOSITE METTUR DAM ? 636 402.",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "METTUR",
+      "sampleDate": "05-10-2021 08:30",
+      "latitude": 11.803279,
+      "longitude": 77.804723,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1843,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": 1.4,
+          "unit": "NTU",
+          "status": "RECORDED"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "HOUSE OF THIRU MURUGAN S/O. ESAKKI NO.16B MEENAKSHIPURAM ANNA NAGAR TIRUNELVELI",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "TIRUNELVELI",
+      "sampleDate": "07-10-2021 08:30",
+      "latitude": 8.727206,
+      "longitude": 77.709638,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 796,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "SRIVAIKUNDAM ? BLOCK DEVELOPMENT OFFICE ? OPEN WELL",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Thoothukudi",
+      "tehsil": "Thoothukudi",
+      "sampleDate": "21-10-2021 08:30",
+      "latitude": 8.625282,
+      "longitude": 77.907778,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1774,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": "Clear",
+          "unit": "reported description",
+          "status": "RECORDED"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "OVER HEAD TANK AT TIRUR VILLAGE TIRUVALLUR TALUK TIRUVALLUR PANCHAYAT UN",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "17-11-2021 08:30",
+      "latitude": 13.106545,
+      "longitude": 79.960588,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 1113,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "PULICATE LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "17-11-2021 08:30",
+      "latitude": 13.427023,
+      "longitude": 80.292679,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 8330,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "YERCAUD LAKE SALEM TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "YERCAUD",
+      "sampleDate": "02-12-2021 08:30",
+      "latitude": 11.783642,
+      "longitude": 78.211153,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 294,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "POONDI LAKE AT THIRUVALLUR TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Tiruvallur",
+      "tehsil": "TIRUVALLUR",
+      "sampleDate": "03-12-2021 08:30",
+      "latitude": 13.169731,
+      "longitude": 79.888236,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 475,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "UDHAGAMADALEM LAKE (OOTY) TAMILNADU",
+      "agency": "CPCB",
+      "state": "Tamil Nadu",
+      "district": "Nilgiris",
+      "tehsil": "Pandalur",
+      "sampleDate": "13-12-2021 08:30",
+      "latitude": 11.400623,
+      "longitude": 76.690453,
+      "river": null,
+      "basin": null,
+      "parameters": {
+        "ec": {
+          "value": 339,
+          "unit": "µS/cm",
+          "status": "RECORDED"
+        },
+        "colour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "odour": {
+          "value": null,
+          "unit": "reported description",
+          "status": "N/A"
+        },
+        "turbidity": {
+          "value": null,
+          "unit": "NTU",
+          "status": "N/A"
+        },
+        "temperature": {
+          "value": null,
+          "unit": "°C",
+          "status": "N/A"
+        },
+        "totalSolids": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    }
+  ]
+}

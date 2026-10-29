@@ -58,7 +58,18 @@ export interface HistoryRecord {
   hasAlert: boolean;
 }
 
-export type ViewTab = 'dashboard' | 'controller' | 'alerts' | 'history';
+
+export type ViewTab =
+  | 'dashboard'
+  | 'sources'
+  | 'analytics'
+  | 'contamination'
+  | 'controller'
+  | 'alerts'
+  | 'history'
+  | 'reports'
+  | 'settings';
+
 
 export interface SimulatedSmsPayload {
   sensorName: string;

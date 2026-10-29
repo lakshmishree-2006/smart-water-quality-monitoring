@@ -1,0 +1,5399 @@
+{
+  "title": "CGWB Groundwater Historical Records — Latest 100",
+  "sourceFile": "9946e904-573a-4fca-8eec-d259a27e8903.csv",
+  "sourceAgency": "CGWB",
+  "dataType": "historical_not_live_sensor_data",
+  "recordCount": 100,
+  "dateRange": {
+    "latest": "2023-08-16 13:00",
+    "oldest": "2022-05-19 12:09"
+  },
+  "standardReference": "Initial screening thresholds based on BIS IS 10500 drinking-water specifications; verify current standard/amendments before production use.",
+  "importantNotes": [
+    "Latest 100 records by sample date in uploaded CSV; not necessarily borewell-only records.",
+    "Verify station type before labeling a record as a borewell.",
+    "Missing values are null and should display as N/A, not zero.",
+    "EC is monitoring-only; no direct BIS pass/fail limit assigned.",
+    "Historical alerts describe sample condition on recorded date, not live status or certification of drinking-water safety."
+  ],
+  "parameters": {
+    "ph": {
+      "label": "pH",
+      "unit": "pH",
+      "acceptable": {
+        "min": 6.5,
+        "max": 8.5
+      },
+      "permissible": null
+    },
+    "tds": {
+      "label": "Total Dissolved Solids",
+      "unit": "mg/L",
+      "acceptable": {
+        "max": 500
+      },
+      "permissible": {
+        "max": 2000
+      }
+    },
+    "chloride": {
+      "label": "Chloride",
+      "unit": "mg/L",
+      "acceptable": {
+        "max": 250
+      },
+      "permissible": {
+        "max": 1000
+      }
+    },
+    "sulphate": {
+      "label": "Sulphate",
+      "unit": "mg/L",
+      "acceptable": {
+        "max": 200
+      },
+      "permissible": {
+        "max": 400
+      }
+    },
+    "totalHardness": {
+      "label": "Total Hardness (as CaCO3)",
+      "unit": "mg/L",
+      "acceptable": {
+        "max": 200
+      },
+      "permissible": {
+        "max": 600
+      }
+    },
+    "calcium": {
+      "label": "Calcium",
+      "unit": "mg/L",
+      "acceptable": {
+        "max": 75
+      },
+      "permissible": {
+        "max": 200
+      }
+    },
+    "magnesium": {
+      "label": "Magnesium",
+      "unit": "mg/L",
+      "acceptable": {
+        "max": 30
+      },
+      "permissible": {
+        "max": 100
+      }
+    },
+    "ec": {
+      "label": "Electrical Conductivity",
+      "unit": "µS/cm",
+      "acceptable": null,
+      "permissible": null,
+      "rule": "Monitoring only; no direct BIS pass/fail threshold assigned."
+    }
+  },
+  "records": [
+    {
+      "station": "Alankulam",
+      "state": "Tamil Nadu",
+      "district": "Tirunelveli",
+      "tehsil": "Keezhapavur",
+      "latitude": 8.9,
+      "longitude": 77.475,
+      "sampleDate": "2023-08-16 13:00",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.71,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1279,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        },
+        "chloride": {
+          "value": 184,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 43,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 410,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 51,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Peramangalam",
+      "state": "Tamil Nadu",
+      "district": "Tiruchirappalli",
+      "tehsil": "THURAIYUR",
+      "latitude": 10.98666667,
+      "longitude": 78.65416667,
+      "sampleDate": "2023-07-06 16:52",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 3550,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2237,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 533,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 284,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 580,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 116,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 70.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Komaratchi",
+      "state": "Tamil Nadu",
+      "district": "Cuddalore",
+      "tehsil": "KATTUMANNARKOIL",
+      "latitude": 11.26666667,
+      "longitude": 79.62083333,
+      "sampleDate": "2023-06-03 11:10",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": null,
+          "unit": "pH",
+          "status": "N/A"
+        },
+        "ec": {
+          "value": null,
+          "unit": "µS/cm",
+          "status": "N/A"
+        },
+        "tds": {
+          "value": 1000,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        },
+        "sulphate": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        },
+        "totalHardness": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        },
+        "calcium": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        },
+        "magnesium": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        }
+      }
+    },
+    {
+      "station": "Tranquebar",
+      "state": "Tamil Nadu",
+      "district": "Nagapattinam",
+      "tehsil": "THARANGAMBADI",
+      "latitude": 11.01694444,
+      "longitude": 79.85138889,
+      "sampleDate": "2023-06-01 17:12",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1158,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 730,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 163,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 111,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 300,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 24.3,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Veraganur",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "GANGAVALLI",
+      "latitude": 11.475,
+      "longitude": 78.7375,
+      "sampleDate": "2022-06-18 17:38",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2590,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1632,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 440,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 182,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 460,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 36,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 90,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Thalaivasal1",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "GANGAVALLI",
+      "latitude": 11.58333333,
+      "longitude": 78.75833333,
+      "sampleDate": "2022-06-18 17:15",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.9,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1432,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 902,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 249,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 68,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 410,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 52,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 68.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Sendarpatti",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "GANGAVALLI",
+      "latitude": 11.4375,
+      "longitude": 78.5,
+      "sampleDate": "2022-06-18 16:30",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1268,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 799,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 156,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 72,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 350,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 31.6,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "P.N.Palayam1",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "ATTUR",
+      "latitude": 11.64722222,
+      "longitude": 78.5125,
+      "sampleDate": "2022-06-18 15:01",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1762,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1110,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 320,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 100,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 680,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 108,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 99.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "P.Goundanpalyam",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "GANGAVALLI",
+      "latitude": 11.46666667,
+      "longitude": 78.4825,
+      "sampleDate": "2022-06-18 14:57",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 975,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 614,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 142,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 36,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 230,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 44,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 29.2,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Karipatti",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "Valapady",
+      "latitude": 11.6625,
+      "longitude": 78.29166667,
+      "sampleDate": "2022-06-18 12:45",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1028,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 648,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 170,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 78,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 490,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 65.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Gangavalli",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "GANGAVALLI",
+      "latitude": 11.49583333,
+      "longitude": 78.65,
+      "sampleDate": "2022-06-18 12:30",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2320,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1462,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 419,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 129,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 670,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 140,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 77.8,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Athur",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "ATTUR",
+      "latitude": 11.59166667,
+      "longitude": 78.58611111,
+      "sampleDate": "2022-06-18 11:23",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1334,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 840,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 206,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 135,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 550,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 52,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 102.2,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Sevantampatti",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.55833333,
+      "longitude": 78.09166667,
+      "sampleDate": "2022-06-17 16:33",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 8870,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 5588,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 2471,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "sulphate": {
+          "value": 655,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "totalHardness": {
+          "value": 1330,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 64,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 284.6,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Salem Bankhouse",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.66666667,
+      "longitude": 78.15833333,
+      "sampleDate": "2022-06-17 16:14",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1492,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 940,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 185,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 134,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 630,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 120,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "S.K.Garden Nathimedi",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.63916667,
+      "longitude": 78.125,
+      "sampleDate": "2022-06-17 16:10",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1640,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1033,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 220,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 126,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 620,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 92,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 94.9,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Pulaveri",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.60833333,
+      "longitude": 78.10833333,
+      "sampleDate": "2022-06-17 15:43",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 7830,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 4933,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 2279,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "sulphate": {
+          "value": 225,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 1420,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 240,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 199.5,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Papparapatti",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.52555556,
+      "longitude": 78.05,
+      "sampleDate": "2022-06-17 15:35",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2480,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1562,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 376,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 115,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 770,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 208,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 60.8,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Panamarathupatti2",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.59027778,
+      "longitude": 78.19305556,
+      "sampleDate": "2022-06-17 15:31",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2940,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1852,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 540,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 197,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 800,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 108,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 128.9,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Palampatti",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.56944444,
+      "longitude": 78.07222222,
+      "sampleDate": "2022-06-17 15:05",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 4450,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2804,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 1122,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "sulphate": {
+          "value": 127,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 1130,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 220,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 141.1,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Mallur1",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.5375,
+      "longitude": 78.14583333,
+      "sampleDate": "2022-06-17 13:01",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.2,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2190,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1380,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 320,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 72,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 710,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 124,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 97.3,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Saravanampatti1_1",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "-",
+      "latitude": 11.075,
+      "longitude": 77.0014,
+      "sampleDate": "2022-06-17 12:28",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 6.9,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 332,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 209,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 71,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 11,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 150,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "calcium": {
+          "value": 40,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 12.2,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Attayampatti S.Puram",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.52527778,
+      "longitude": 78.075,
+      "sampleDate": "2022-06-17 11:28",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 6370,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 4013,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 1882,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "sulphate": {
+          "value": 454,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "totalHardness": {
+          "value": 2130,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 400,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 274.9,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Attayampatti Ghss",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "SALEM",
+      "latitude": 11.52527778,
+      "longitude": 78.075,
+      "sampleDate": "2022-06-17 11:26",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2500,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1575,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 398,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 246,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 650,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 96,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 99.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Yercaud",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "YERCAUD",
+      "latitude": 11.78333333,
+      "longitude": 78.21111111,
+      "sampleDate": "2022-06-16 17:44",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 346,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 218,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 64,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 27,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 150,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "calcium": {
+          "value": 28,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 19.5,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Tivettipatti",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "OMALUR",
+      "latitude": 11.86666667,
+      "longitude": 78.0875,
+      "sampleDate": "2022-06-16 17:21",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 8.1,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 3270,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2060,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 476,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 180,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 620,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 56,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 116.8,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Omalur1",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "OMALUR",
+      "latitude": 11.74583333,
+      "longitude": 78.05,
+      "sampleDate": "2022-06-16 14:54",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 3390,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2136,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 504,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 185,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 670,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 240,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 17,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Nangavalli",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "METTUR",
+      "latitude": 11.75833333,
+      "longitude": 77.89583333,
+      "sampleDate": "2022-06-16 14:51",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.9,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 504,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 318,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 71,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 29,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 230,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 44,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 29.2,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Mecheri1",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "METTUR",
+      "latitude": 11.82916667,
+      "longitude": 77.94583333,
+      "sampleDate": "2022-06-16 14:45",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2380,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1499,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 447,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 51,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 850,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 153.2,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Kullampatti",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "Sankari",
+      "latitude": 11.58333333,
+      "longitude": 77.79166667,
+      "sampleDate": "2022-06-16 12:57",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1260,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 794,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 227,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 8,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 390,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 41.4,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Kulathur",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "METTUR",
+      "latitude": 11.84722222,
+      "longitude": 77.74722222,
+      "sampleDate": "2022-06-16 12:54",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1160,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 731,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 135,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 144,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 510,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 100,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 63.2,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Konganapuram",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "Edappadi",
+      "latitude": 11.56666667,
+      "longitude": 77.9,
+      "sampleDate": "2022-06-16 12:48",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1257,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 792,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 101,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 600,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 97.3,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Jalakandapuram",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "METTUR",
+      "latitude": 11.70555556,
+      "longitude": 77.87222222,
+      "sampleDate": "2022-06-16 12:38",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1755,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1106,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 256,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 94,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 550,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 96,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 75.4,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Idapadi",
+      "state": "Tamil Nadu",
+      "district": "Salem",
+      "tehsil": "Edappadi",
+      "latitude": 11.59166667,
+      "longitude": 77.84166667,
+      "sampleDate": "2022-06-16 12:35",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2100,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1323,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 355,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 74,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 810,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 104,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 133.8,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Mukkaredipatti",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "Pappireddipatti",
+      "latitude": 11.96666667,
+      "longitude": 78.41666667,
+      "sampleDate": "2022-06-15 13:08",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1730,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1090,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 284,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 109,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 660,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 111.9,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Maniyampadi (Keserkuli R.F.ext",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "Pappireddipatti",
+      "latitude": 12.1244,
+      "longitude": 78.2844,
+      "sampleDate": "2022-06-15 13:00",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 589,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 371,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 64,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 54,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 230,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 44,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 29.2,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Indoor",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "DHARMAPURI",
+      "latitude": 12.13333333,
+      "longitude": 78.05833333,
+      "sampleDate": "2022-06-15 12:46",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 3300,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2079,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 433,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 733,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "totalHardness": {
+          "value": 1150,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 228,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 141.1,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Hogenakkal",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "PENNAGARAM",
+      "latitude": 12.12361111,
+      "longitude": 77.80833333,
+      "sampleDate": "2022-06-15 12:43",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 8.2,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1545,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 973,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 156,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 164,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 150,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "calcium": {
+          "value": 16,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 26.8,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Dharmapuri2",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "DHARMAPURI",
+      "latitude": 12.1375,
+      "longitude": 78.17083333,
+      "sampleDate": "2022-06-15 12:29",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2100,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1323,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 298,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 129,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": null,
+          "unit": "mg/L",
+          "status": "N/A"
+        },
+        "calcium": {
+          "value": 164,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 68.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Boothanatham (Keserkuli R.F)_1",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "Pappireddipatti",
+      "latitude": 11.9508,
+      "longitude": 78.4689,
+      "sampleDate": "2022-06-15 12:24",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 577,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 364,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 57,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 63,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 220,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 40,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 29.2,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Bommidimalapurm",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "DHARMAPURI",
+      "latitude": 12,
+      "longitude": 78.25,
+      "sampleDate": "2022-06-15 12:20",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1336,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 842,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 170,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 132,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 500,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 116,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 51.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Thoppur",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "DHARMAPURI",
+      "latitude": 11.95,
+      "longitude": 78.05,
+      "sampleDate": "2022-06-15 11:29",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2100,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1323,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 206,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 200,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 620,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 72,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 107,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Pennagaram1",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "PENNAGARAM",
+      "latitude": 12.125,
+      "longitude": 77.9,
+      "sampleDate": "2022-06-15 11:18",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 754,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 475,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 92,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 124,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 320,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 40,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 53.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Pattakarankottai (Jarimankurichy) OW_1",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "-",
+      "latitude": 12.0275,
+      "longitude": 77.8103,
+      "sampleDate": "2022-06-15 11:15",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1647,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1038,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 300,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 570,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 156,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 43.8,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Papireddipatti1",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "Pappireddipatti",
+      "latitude": 11.91666667,
+      "longitude": 78.33611111,
+      "sampleDate": "2022-06-15 11:11",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1603,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1010,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 270,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 109,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 530,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 48,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 99.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Odasalapatti",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "Pappireddipatti",
+      "latitude": 12.14166667,
+      "longitude": 78.29166667,
+      "sampleDate": "2022-06-15 11:07",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1343,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 846,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 143,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 540,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 77.8,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Nagadasampatti",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "PENNAGARAM",
+      "latitude": 12.13333333,
+      "longitude": 77.98333333,
+      "sampleDate": "2022-06-15 11:03",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2650,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1670,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 419,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 222,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 1010,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 148,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 155.7,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Billakottai",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Pochampalli",
+      "latitude": 12.40694444,
+      "longitude": 78.17777778,
+      "sampleDate": "2022-06-14 17:26",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.6,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1834,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1155,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 270,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 218,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 600,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 52,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 114.3,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Anusonai",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Denganikottai",
+      "latitude": 12.56666667,
+      "longitude": 77.9,
+      "sampleDate": "2022-06-14 17:12",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1157,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 729,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 130,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 410,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 64,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 60.8,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Nattanmai Kottai_1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Krishnagiri",
+      "latitude": 12.4719,
+      "longitude": 78.2153,
+      "sampleDate": "2022-06-14 16:31",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1337,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 842,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 284,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 66,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 410,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 48,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 70.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Morappur",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "Pappireddipatti",
+      "latitude": 12.12361111,
+      "longitude": 78.39777778,
+      "sampleDate": "2022-06-14 13:05",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1976,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1245,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 369,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 153,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 680,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 84,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 114.3,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Kottapatti",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "HARUR",
+      "latitude": 11.97777778,
+      "longitude": 78.6625,
+      "sampleDate": "2022-06-14 12:53",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1706,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1075,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 213,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 133,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 680,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 92,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 109.5,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Ecchambadi_1",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "-",
+      "latitude": 12.2017,
+      "longitude": 78.3544,
+      "sampleDate": "2022-06-14 12:37",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.2,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1963,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1237,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 312,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 162,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 750,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 160,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 85.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Kaveripatnam",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Pochampalli",
+      "latitude": 12.4125,
+      "longitude": 78.22916667,
+      "sampleDate": "2022-06-14 11:25",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1682,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1060,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 362,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 91,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 650,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 40,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 133.8,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Thirthamalai",
+      "state": "Tamil Nadu",
+      "district": "Dharmapuri",
+      "tehsil": "HARUR",
+      "latitude": 12.1,
+      "longitude": 78.50416667,
+      "sampleDate": "2022-06-14 11:24",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1926,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1213,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 277,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 147,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 710,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 120,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 99.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Karukkanchavadi",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Pochampalli",
+      "latitude": 12.40833333,
+      "longitude": 78.20833333,
+      "sampleDate": "2022-06-14 11:22",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1320,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 832,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 256,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 490,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 70.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Rayakottai1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Denganikottai",
+      "latitude": 12.51111111,
+      "longitude": 78.03083333,
+      "sampleDate": "2022-06-14 10:46",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1620,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1021,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 256,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 77,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 580,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 120,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 68.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Pannandur_1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Pochampalli",
+      "latitude": 12.3011,
+      "longitude": 78.2794,
+      "sampleDate": "2022-06-14 10:38",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.2,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 3270,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2060,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 1001,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "sulphate": {
+          "value": 82,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 900,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 236,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 75.4,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Bargur",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Pochampalli",
+      "latitude": 12.54583333,
+      "longitude": 78.35833333,
+      "sampleDate": "2022-06-13 17:22",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2260,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1424,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 305,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 238,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 690,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 60,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 131.3,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Athimugam1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Hosur",
+      "latitude": 12.75833333,
+      "longitude": 77.97916667,
+      "sampleDate": "2022-06-13 17:16",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1336,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 842,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 314,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 410,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 100,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 38.9,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Megalachinnapalli",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Krishnagiri",
+      "latitude": 12.625,
+      "longitude": 78.25416667,
+      "sampleDate": "2022-06-13 16:27",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1820,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1147,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 291,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 279,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 700,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 100,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 109.5,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Mallapadi OW_1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Krishnagiri",
+      "latitude": 12.5342,
+      "longitude": 78.375,
+      "sampleDate": "2022-06-13 16:06",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1304,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 822,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 206,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 110,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 490,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 65.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Krishnagiri1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Krishnagiri",
+      "latitude": 12.53055556,
+      "longitude": 78.23055556,
+      "sampleDate": "2022-06-13 15:57",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2700,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1701,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 490,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 263,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 690,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 140,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 82.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Kawthalam",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Denganikottai",
+      "latitude": 12.53472222,
+      "longitude": 78.04888889,
+      "sampleDate": "2022-06-13 11:30",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.2,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 569,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 358,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 85,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 45,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 270,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 48,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 36.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Hosur HP",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Hosur",
+      "latitude": 12.7167,
+      "longitude": 77.8333,
+      "sampleDate": "2022-06-13 11:18",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1240,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 781,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 185,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 138,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 500,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 120,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 48.6,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Guruvinayanpalli",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Pochampalli",
+      "latitude": 12.65,
+      "longitude": 78.32916667,
+      "sampleDate": "2022-06-13 11:15",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1012,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 638,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 114,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 191,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 410,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 68,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 58.4,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Gurubarapalli (Billanakuppam)_1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Krishnagiri",
+      "latitude": 12.5972,
+      "longitude": 78.1331,
+      "sampleDate": "2022-06-13 11:11",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 598,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 377,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 85,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 43,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 290,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 60,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 34.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "ENUSONAI_2",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Denkanikottai",
+      "latitude": 12.6136,
+      "longitude": 78.0175,
+      "sampleDate": "2022-06-13 11:08",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1290,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 813,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 128,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 440,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 58.4,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Veppanapalli",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Krishnagiri",
+      "latitude": 12.70416667,
+      "longitude": 78.18472222,
+      "sampleDate": "2022-06-13 11:07",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1854,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1168,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 263,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 227,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 450,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 68,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 68.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Denkanikottai1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Denganikottai",
+      "latitude": 12.525,
+      "longitude": 77.78333333,
+      "sampleDate": "2022-06-13 10:59",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2830,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1783,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 462,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 417,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "totalHardness": {
+          "value": 760,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 140,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 99.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Unsetti",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Denganikottai",
+      "latitude": 12.30416667,
+      "longitude": 77.775,
+      "sampleDate": "2022-06-13 10:55",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.9,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 683,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 430,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 71,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 2,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 340,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 48,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 53.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Sulagiri",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Hosur",
+      "latitude": 12.66666667,
+      "longitude": 78.025,
+      "sampleDate": "2022-06-13 10:49",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2600,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1638,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 348,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 213,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 790,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 160,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 94.9,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Mattur2",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Uthangarai",
+      "latitude": 12.38333333,
+      "longitude": 78.41666667,
+      "sampleDate": "2022-06-12 16:24",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1479,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 932,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 249,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 78,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 520,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 48,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 97.3,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Mattur",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Uthangarai",
+      "latitude": 12.38333333,
+      "longitude": 78.41388889,
+      "sampleDate": "2022-06-12 16:21",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 3860,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2432,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 646,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 347,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 1260,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 236,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "magnesium": {
+          "value": 163,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Keezkuppam I",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Uthangarai",
+      "latitude": 12.2225,
+      "longitude": 78.52833333,
+      "sampleDate": "2022-06-12 15:52",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1785,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1125,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 241,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 100,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 650,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 109.5,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Kandili (Dug well)",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "tehsil": "Thiruppathur",
+      "latitude": 12.475,
+      "longitude": 78.45555556,
+      "sampleDate": "2022-06-12 12:50",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 3670,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 2312,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "chloride": {
+          "value": 625,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 168,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 900,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 56,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 184.9,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        }
+      }
+    },
+    {
+      "station": "Uttangarai",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Uthangarai",
+      "latitude": 12.26666667,
+      "longitude": 78.52916667,
+      "sampleDate": "2022-06-12 11:00",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1123,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 707,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 78,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 560,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 87.6,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Pudur Punganai OW_1",
+      "state": "Tamil Nadu",
+      "district": "Krishnagiri",
+      "tehsil": "Uthangarai",
+      "latitude": 12.1861,
+      "longitude": 78.4842,
+      "sampleDate": "2022-06-12 10:43",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.1,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2120,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1336,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 320,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 116,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 680,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 128,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 87.6,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Virupachipuram(bagayam)",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "tehsil": "VELLORE",
+      "latitude": 12.87777778,
+      "longitude": 79.13333333,
+      "sampleDate": "2022-06-11 13:03",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1246,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 785,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 153,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 400,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 28,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 80.3,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Chinnapallikuppam pz",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "tehsil": "Gudiyatham",
+      "latitude": 12.7633,
+      "longitude": 78.8386,
+      "sampleDate": "2022-06-11 12:46",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1246,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 785,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 227,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 63,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 430,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 36,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 82.7,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Ranipet2",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "tehsil": "WALAJAH",
+      "latitude": 12.93333333,
+      "longitude": 79.35,
+      "sampleDate": "2022-06-10 12:58",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1615,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1017,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 341,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 104,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 340,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 52,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 51.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Ponnai1",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "tehsil": "WALAJAH",
+      "latitude": 13.12916667,
+      "longitude": 79.25833333,
+      "sampleDate": "2022-06-10 12:55",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.8,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2570,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1619,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 511,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 114,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 620,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 97.3,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Avarakarai",
+      "state": "Tamil Nadu",
+      "district": "Vellore",
+      "tehsil": "WALAJAH",
+      "latitude": 12.9625,
+      "longitude": 79.2875,
+      "sampleDate": "2022-06-10 12:37",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1758,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1108,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 291,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 93,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 350,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 44,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 58.4,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Thirukadiyur",
+      "state": "Tamil Nadu",
+      "district": "Nagapattinam",
+      "tehsil": "THARANGAMBADI",
+      "latitude": 11.06666667,
+      "longitude": 79.81666667,
+      "sampleDate": "2022-06-01 17:08",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.1,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 354,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 223,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "chloride": {
+          "value": 43,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 58,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 150,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "calcium": {
+          "value": 32,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 17,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Poompuhar",
+      "state": "Tamil Nadu",
+      "district": "Nagapattinam",
+      "tehsil": "SIRKALI",
+      "latitude": 11.145,
+      "longitude": 79.83972222,
+      "sampleDate": "2022-06-01 17:04",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 805,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 507,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 135,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 45,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 190,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "calcium": {
+          "value": 60,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 9.7,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "TN.Urban studies",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Annur",
+      "latitude": 11.02083333,
+      "longitude": 76.9425,
+      "sampleDate": "2022-05-20 14:48",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1575,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 992,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 121,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 160,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 290,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 56,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 36.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Thivansapudur_1",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "-",
+      "latitude": 10.6283,
+      "longitude": 76.8753,
+      "sampleDate": "2022-05-20 12:57",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1128,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 711,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 192,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 74,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 440,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 88,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 53.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Sulur",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Sulur",
+      "latitude": 11.025,
+      "longitude": 77.125,
+      "sampleDate": "2022-05-20 12:52",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2870,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1808,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 483,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 173,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 800,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 192,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 77.8,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Singanallur",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "COIMBATORE SOUTH",
+      "latitude": 10.99638889,
+      "longitude": 77.02083333,
+      "sampleDate": "2022-05-20 12:45",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2510,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1581,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 327,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 93,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 560,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 87.6,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Varadarayapuram",
+      "state": "Tamil Nadu",
+      "district": "Tiruppur",
+      "tehsil": "Udumalpet",
+      "latitude": 10.67916667,
+      "longitude": 77.275,
+      "sampleDate": "2022-05-20 12:09",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1155,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 728,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 156,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 102,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 460,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 120,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 38.9,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Devanur pudur",
+      "state": "Tamil Nadu",
+      "district": "Tiruppur",
+      "tehsil": "Udumalpet",
+      "latitude": 10.53333333,
+      "longitude": 77.1,
+      "sampleDate": "2022-05-20 12:01",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1486,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 936,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 220,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 65,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 300,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 24.3,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        }
+      }
+    },
+    {
+      "station": "Angalakurichi",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "POLLACHI",
+      "latitude": 10.525,
+      "longitude": 76.99944444,
+      "sampleDate": "2022-05-20 11:26",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1660,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1046,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 199,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 92,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 410,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 100,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 38.9,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "AnaimalaiPZ",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "POLLACHI",
+      "latitude": 10.50972222,
+      "longitude": 77.05944444,
+      "sampleDate": "2022-05-20 11:20",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 6.9,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 975,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 614,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 142,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 62,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 420,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 80,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 53.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Vadavalli",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Annur",
+      "latitude": 11.025,
+      "longitude": 76.90833333,
+      "sampleDate": "2022-05-19 14:52",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.5,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 2330,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1468,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 362,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "sulphate": {
+          "value": 133,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 690,
+          "unit": "mg/L",
+          "status": "CRITICAL"
+        },
+        "calcium": {
+          "value": 128,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 90,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Sokkanur",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Kinathukadavu",
+      "latitude": 10.80833333,
+      "longitude": 76.95833333,
+      "sampleDate": "2022-05-19 12:49",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1323,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 833,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 170,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 173,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 340,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 76,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 36.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Kinathukadavu",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Kinathukadavu",
+      "latitude": 10.73333333,
+      "longitude": 77.02916667,
+      "sampleDate": "2022-05-19 12:42",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1671,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1053,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 227,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 174,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 570,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 140,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 53.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Seeliyur",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Mettupalayam",
+      "latitude": 11.17916667,
+      "longitude": 76.75833333,
+      "sampleDate": "2022-05-19 12:42",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.7,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1352,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 852,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 170,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 242,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "totalHardness": {
+          "value": 460,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 100,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 51.1,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Kattampatty",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "Kinathukadavu",
+      "latitude": 10.80833333,
+      "longitude": 77.15833333,
+      "sampleDate": "2022-05-19 12:32",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1689,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 1064,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 206,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 153,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 600,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 160,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 48.6,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Gopalapuaram",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "POLLACHI",
+      "latitude": 10.69583333,
+      "longitude": 76.9375,
+      "sampleDate": "2022-05-19 12:28",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.3,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1324,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 834,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 213,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 91,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 520,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 120,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 53.5,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Ponnaiyur",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "POLLACHI",
+      "latitude": 10.675,
+      "longitude": 76.9375,
+      "sampleDate": "2022-05-19 12:20",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 960,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 605,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 149,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 63,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 360,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 68,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "magnesium": {
+          "value": 46.2,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    },
+    {
+      "station": "Pollachi1",
+      "state": "Tamil Nadu",
+      "district": "Coimbatore",
+      "tehsil": "POLLACHI",
+      "latitude": 10.66111111,
+      "longitude": 77,
+      "sampleDate": "2022-05-19 12:09",
+      "agency": "CGWB",
+      "sourceType": "historical_groundwater_station_type_unverified",
+      "parameters": {
+        "ph": {
+          "value": 7.4,
+          "unit": "pH",
+          "status": "NORMAL"
+        },
+        "ec": {
+          "value": 1237,
+          "unit": "µS/cm",
+          "status": "MONITOR"
+        },
+        "tds": {
+          "value": 779,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "chloride": {
+          "value": 192,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "sulphate": {
+          "value": 84,
+          "unit": "mg/L",
+          "status": "NORMAL"
+        },
+        "totalHardness": {
+          "value": 420,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "calcium": {
+          "value": 92,
+          "unit": "mg/L",
+          "status": "WARNING"
+        },
+        "magnesium": {
+          "value": 46.2,
+          "unit": "mg/L",
+          "status": "WARNING"
+        }
+      }
+    }
+  ]
+}

@@ -55,7 +55,7 @@ The current software prototype implements the Firebase-connected dashboard using
 
 ## Live Demo
 
-[Open the Smart Water Quality Monitoring Dashboard](https://smart-water-quality-84a25.web.app)
+[View Smart Water Quality Monitoring Dashboard](https://smart-water-quality-monitoring-mgms-czbh6g329-aquatech3.vercel.app/)
 
 ## Getting Started
 
